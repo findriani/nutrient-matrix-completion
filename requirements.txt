@@ -1,0 +1,12 @@
+# Pinned to the versions the reported results were generated with
+# (Python 3.14.3; see README "Environment" section for hardware details).
+# Only packages actually imported by this repository's code are listed here;
+# this is a curated subset of the authors' full research environment.
+
+numpy==2.4.4
+pandas==3.0.2
+scipy==1.17.1
+scikit-learn==1.8.0
+fancyimpute==0.7.0
+torch==2.11.0
+matplotlib==3.10.8

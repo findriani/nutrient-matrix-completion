@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Raw data (fetched separately; see README "Data" section)
+*.csv
+!experiments/outputs/tables/*.csv
+TKPIv2.csv
+usda_sr_legacy_2018_wide.csv
+FoodData_Central_*/
+FoodData_Central_*.zip
+
+# Regenerable figure outputs (rerun figures/make_figures.py to produce these)
+experiments/outputs/figures/
+
+# Editor / OS cruft
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
